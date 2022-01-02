@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap");
+
+* {
+  font-family: poppins, sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 50%;
+  margin: 1rem auto 20px auto;
+}
+
+body {
+  background-image: linear-gradient(
+      171deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.5)
+    ),
+    url(/bg-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body {
+  color: #f3f3f3;
+}
+
+/* header styles */
+
+header {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* header styles */
+
+#title,
+#description {
+  text-align: center;
+}
+
+#title {
+  margin-bottom: 10px;
+}
+
+#description {
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+/* body styles */
+p {
+  margin-bottom: 5px;
+}
+#survey-form {
+  background-color: rgba(27, 27, 50, 0.8);
+  padding-top: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.form-group {
+  display: block;
+  margin: 5px 30px 5px 12px;
+  padding: 3px 20px 5px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#name-label,
+#email-label,
+#number-label,
+p {
+  padding-left: 12px;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input,
+select {
+  display: block;
+  width: 100%;
+  margin: 5px 30px 5px 12px;
+  padding: 5px 20px 5px 20px;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  line-height: 30px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  min-height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+textarea {
+  width: 100%;
+  margin: 5px 30px 5px 12px;
+  padding: 5px 20px 5px 15px;
+  border: 4px double black;
+  border-radius: 5px;
+}
+
+#submit {
+  width: 100%;
+  margin: 5px 20px 50px 15px;
+  padding: 5px 20px 5px 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #37af65;
+}
