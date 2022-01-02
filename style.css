@@ -15,9 +15,6 @@ body {
     rgba(58, 58, 158, 0.8),
     rgba(136, 136, 206, 0.5)
   );
-}
-
-body {
   color: #f3f3f3;
 }
 
@@ -49,6 +46,7 @@ header {
 p {
   margin-bottom: 5px;
 }
+
 #survey-form {
   background-color: rgba(27, 27, 50, 0.8);
   padding-top: 50px;
